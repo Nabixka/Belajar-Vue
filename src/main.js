@@ -1,5 +1,6 @@
 import { createApp } from "vue";
-import HelloSMK from "./components/HelloSMK.vue"
+import App from "./App.vue";
+import './style.css'
 
 
-createApp(HelloSMK).mount('#app')
+createApp(App).mount('#app')
